@@ -7,6 +7,7 @@ const initialColor = {
 };
 
 const ColorList = ({ colors, updateColors }) => {
+  //Pay attention to these arguments here 👆🏿
   console.log(colors);
   console.log(updateColors);
   const [editing, setEditing] = useState(false);
