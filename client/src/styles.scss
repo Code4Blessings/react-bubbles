@@ -80,7 +80,11 @@ form {
   }
 
   input {
-    width: 100px;
+    width: 300px;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border-radius: 4px;
   }
 }
 
